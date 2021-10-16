@@ -12,6 +12,7 @@ public class HTTPDemo {
     public static void main(String args[])
     {
         try {
+            //we give the endpoint url which is authorized as a parameter to the constructor
             URL url=new URL("https://seller.flipkart.com/api-docs/order-api-docs/v3/PostShipmentSearch.html#getshipment-label");
             conn= (HttpURLConnection) url.openConnection();
 
